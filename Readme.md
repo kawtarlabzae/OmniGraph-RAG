@@ -1,21 +1,6 @@
-<div align="center">
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--  PASTE YOUR ARCHITECTURE SVG HERE — replace the block below       -->
-<!--  Recommended size: 900×500px, exported from Figma / draw.io / D3 -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
-```
-┌─────────────────────────────────────────────────────┐
-│                                                     │
-│          [ PASTE YOUR ARCHITECTURE SVG HERE ]       │
-│                                                     │
-│  Tip: save your diagram as /docs/architecture.svg   │
-│  then replace this block with:                      │
-│  <img src="docs/architecture.svg" width="900"/>     │
-│                                                     │
-└─────────────────────────────────────────────────────┘
-```
+<p align="center">
+  <img src="docs/omniograph_rag_architecture.svg" width="900" alt="OmniGraph RAG System Architecture">
+</p>
 
 # OmniGraph-RAG
 
