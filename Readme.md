@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="Project/docs/omniograph_rag_architecture.svg" width="900" alt="OmniGraph RAG System Architecture">
-</p>
-
 # OmniGraph-RAG
 
 **A next-generation, dynamically adaptive GraphRAG system**  
@@ -68,6 +64,12 @@ USER QUERY
                         Grounded Answer
                        with Graph Citations
 ```
+
+<p align="center">
+  <img src="Project/docs/omniograph_rag_architecture.svg" width="900" alt="OmniGraph RAG System Architecture">
+</p>
+
+
 
 ### The four archetypes, precisely defined
 
