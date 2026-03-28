@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+langchain
+langchain-core
+langchain-openai
+pydantic-settings
+pytest
+numpy==1.24.3

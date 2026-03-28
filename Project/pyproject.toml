@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "omnigraph-rag"
+version = "0.1.0"
+description = "OmniGraph-RAG system for knowledge base queries"
+authors = [{name = "Your Name"}]
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "langchain",
+    "langchain-core",
+    "langchain-openai",
+    "langchain-google-genai",
+    "pydantic-settings",
+    "pytest",
+    "numpy==1.24.3",
+    "python-dotenv",
+]
+
+[tool.setuptools]
+packages = ["api", "core", "drift", "graph", "pipeline", "retrieval", "routing", "synthesis", "omni_graph_rag"]

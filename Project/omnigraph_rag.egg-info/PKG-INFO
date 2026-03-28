@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: omnigraph-rag
+Version: 0.1.0
+Summary: OmniGraph-RAG system for knowledge base queries
+Author: Your Name
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: langchain
+Requires-Dist: langchain-core
+Requires-Dist: langchain-openai
+Requires-Dist: pydantic-settings
+Requires-Dist: pytest
+Requires-Dist: numpy==1.24.3

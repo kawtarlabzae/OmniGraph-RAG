@@ -1,0 +1,38 @@
+# --- Python / Virtual Environment ---
+# We don't track the venv because anyone can recreate it using your requirements.txt
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Environment Variables (CRITICAL) ---
+# Never push your Google API keys or Neo4j passwords!
+.env
+.env.local
+.env.*
+
+# --- IDE / Editor Specific ---
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# --- OS / Logs ---
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Data & Cache ---
+# If you have local data files or the datasets_cache we saw on your K: drive
+datasets_cache/
+OllamaData/
+ollama_models/
+.ipynb_checkpoints/
+
+# --- Large Files ---
+# Prevent accidentally uploading model weights or large CSVs
+*.bin
+*.gguf
+*.onnx
