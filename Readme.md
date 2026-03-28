@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/omniograph_rag_architecture.svg" width="900" alt="OmniGraph RAG System Architecture">
+  <img src="Project/docs/omniograph_rag_architecture.svg" width="900" alt="OmniGraph RAG System Architecture">
 </p>
 
 # OmniGraph-RAG
